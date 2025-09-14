@@ -37,7 +37,7 @@ Escolhi a Amazon Linux 2023 AMI, uma imagem fornecida e otimizada pela AWS. Para
 </p>
 
 <p align="center">
-<img src="imagens/14.jpg" alt="Tela de escolha do tipo de instância t2.micro.">
+<img src="imagens/15.jpg" alt="Tela de escolha do tipo de instância t2.micro.">
 </p>
 
 3. Configuração do Par de Chaves e Rede
@@ -45,7 +45,7 @@ Escolhi a Amazon Linux 2023 AMI, uma imagem fornecida e otimizada pela AWS. Para
 Criei um novo par de chaves para autenticação via SSH, chamado chave-ec2-dio. Em seguida, configurei o grupo de segurança (Security Group) para permitir o tráfego SSH na porta 22, utilizando "Meu IP" como origem para maior segurança.
 
 <p align="center">
-<img src="imagens/15.jpg" alt="Configuração do Security Group para acesso SSH.">
+<img src="imagens/16.jpg" alt="Configuração do Security Group para acesso SSH.">
 </p>
 
 4. Lançamento e Status da Instância
@@ -53,11 +53,11 @@ Criei um novo par de chaves para autenticação via SSH, chamado chave-ec2-dio. 
 Após revisar todas as configurações, lancei a instância. No painel de instâncias, pude acompanhar o status, que mudou de "Pendente" para "Executando".
 
 <p align="center">
-<img src="imagens/16.jpg" alt="Instância com status pendente.">
+<img src="imagens/17.jpg" alt="Instância com status pendente.">
 </p>
 
 <p align="center">
-<img src="imagens/17.jpg" alt="Instância com status executando e detalhes do IP público.">
+<img src="imagens/18.jpg" alt="Instância com status executando e detalhes do IP público.">
 </p>
 
 5. Conectando via SSH
